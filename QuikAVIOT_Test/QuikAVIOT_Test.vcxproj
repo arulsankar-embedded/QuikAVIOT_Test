@@ -153,18 +153,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\QuickAVIOT_Test\json.h" />
-    <ClInclude Include="..\..\QuickAVIOT_Test\oboxhttp.h" />
-    <ClInclude Include="..\..\QuickAVIOT_Test\ozwcp.h" />
-    <ClInclude Include="..\..\QuickAVIOT_Test\webserver.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\QuickAVIOT_Test\jsoncpp.cpp" />
-    <ClCompile Include="..\..\QuickAVIOT_Test\obox.cpp" />
-    <ClCompile Include="..\..\QuickAVIOT_Test\oboxhttp.cpp" />
-    <ClCompile Include="..\..\QuickAVIOT_Test\webserver.cpp" />
-    <ClCompile Include="..\..\QuickAVIOT_Test\zwavelib.cpp" />
+    <ClCompile Include="..\jsoncpp.cpp" />
+    <ClCompile Include="..\obox.cpp" />
+    <ClCompile Include="..\oboxhttp.cpp" />
+    <ClCompile Include="..\webserver.cpp" />
+    <ClCompile Include="..\zwavelib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="QuikAVIOT_Test.rc" />
@@ -172,6 +165,12 @@
   <ItemGroup>
     <Image Include="..\..\QuickAVIOT_Test\AppIcon.ico" />
     <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\json.h" />
+    <ClInclude Include="..\oboxhttp.h" />
+    <ClInclude Include="..\ozwcp.h" />
+    <ClInclude Include="..\webserver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
